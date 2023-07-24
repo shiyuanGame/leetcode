@@ -6,8 +6,17 @@
         public static void Main(string[] args)
         {
             // System.Console.WriteLine("..");
-            PlusOne(new int[] { 1, 9, 2, 9 });
+            // PlusOne(new int[] { 1, 9, 2, 9 });
+
+            string ab = "ab01";
+            var index1 = ab.Length > 3 ? ab[2] - '0' : 0;
+            var index2 = ab.Length > 3 ? ab[2] - '0' : 0;
+            System.Console.WriteLine(index1);
+            System.Console.WriteLine(index2);
+            System.Console.WriteLine(index1 + index2);
+
         }
+
 
         public static int[] PlusOne(int[] digits)
         {
